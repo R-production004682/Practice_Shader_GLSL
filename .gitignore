@@ -1,32 +1,88 @@
-# Prerequisites
-*.d
+# --- Visual Studio specific ---
+.vs/             # Visual Studioの一時ファイル
+*.user           # ユーザー設定ファイル
+*.suo            # ソリューションオプションファイル
+*.ipch           # IntelliSenseキャッシュ
+*.sdf            # データベースファイル
+*.opensdf        # オープン状態のデータベース
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# --- Build results ---
+SL_Triangle/x64/Debug/
+glTriangle/x64/Debug/
+*.exe            # 実行ファイル
+*.dll            # DLLファイル
+*.obj            # オブジェクトファイル
+*.lib            # ライブラリファイル
+*.so             # Linux共有ライブラリ
+*.dylib          # macOS動的ライブラリ
+*.a              # 静的ライブラリ
+*.la             # ライブラリアーカイブ
+*.o              # コンパイル済みオブジェクトファイル
+*.out            # 実行可能ファイル（Linux/Unix）
+*.app            # macOSアプリケーション
+*.pdb            # デバッグ情報ファイル
+*.ilk            # 増分リンクファイル
+*.idb            # 開発データベース
 
-# Precompiled Headers
-*.gch
-*.pch
+# --- 無視したいディレクトリ ---
+# glm パッケージ内のビルドフォルダとその中のドキュメント
+doc/             # ドキュメントディレクトリ全体を無視
+*.html           # HTMLドキュメント（自動生成される場合）
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# --- glm パッケージ関連 ---
+# glm パッケージのビルド結果やドキュメント
+SL_Triangle/packages/glm.1.0.1/
+/packages/glm.1.0.1/          # glmのパッケージ全体を無視
+/packages/glm.1.0.1/build/    # glmのビルド結果
+/packages/glm.1.0.1/build/native/doc/ # glmのドキュメントを無視
+/packages/glm.1.0.1/build/native/doc/api/ # APIドキュメントを無視
 
-# Fortran module files
-*.mod
-*.smod
+# --- nupengl パッケージ関連 ---
+# nupengl パッケージのビルド結果や関連ファイル
+glTriangle/packages/nupengl.core.0.1.0.1/
+/packages/nupengl.core.0.1.0.1/        # nupengl.coreのパッケージ全体
+/packages/nupengl.core.0.1.0.1/build/  # nupengl.coreのビルド結果
+/packages/nupengl.core.0.1.0.1/build/native/bin/ # nupengl.coreのバイナリ
+/packages/nupengl.core.0.1.0.1/build/native/lib/ # nupengl.coreのライブラリ
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+/packages/nupengl.core.redist.0.1.0.1/        # nupengl.core.redistのパッケージ全体
+/packages/nupengl.core.redist.0.1.0.1/build/  # nupengl.core.redistのビルド結果
+/packages/nupengl.core.redist.0.1.0.1/build/native/bin/ # nupengl.core.redistのバイナリ
+/packages/nupengl.core.redist.0.1.0.1/build/native/lib/ # nupengl.core.redistのライブラリ
 
-# Executables
-*.exe
-*.out
-*.app
+# --- Precompiled Headers ---
+*.gch            # プリコンパイル済みヘッダー
+*.pch            # プリコンパイル済みヘッダー（Visual Studio）
+
+# --- Temporary/Intermediate files ---
+*.tmp            # 一時ファイル
+*.log            # ログファイル
+*.tlog           # タスクログ
+*.lastbuildstate # 最後のビルド状態
+*.cache          # 一時キャッシュファイル
+*.manifest       # マニフェストファイル
+
+
+# --- Shader cache (optional) ---
+*.spv            # SPIR-Vバイナリファイル（Vulkan対応の場合）
+
+# --- Libraries and Dependencies ---
+packages/        # NuGetパッケージ
+node_modules/    # Node.jsパッケージ（もし使用する場合）
+
+
+# --- OS generated files ---
+.DS_Store        # macOSのメタデータファイル
+Thumbs.db        # Windowsのサムネイルキャッシュ
+desktop.ini      # Windowsのシステム設定ファイル
+
+# --- GLSL specific ---
+*.vert           # 頂点シェーダー
+*.frag           # フラグメントシェーダー
+*.geom           # ジオメトリシェーダー
+*.comp           # コンピュートシェーダー
+*.tess           # テセレーションシェーダー
+
+# --- IDE specific (optional, depending on your setup) ---
+.idea/           # JetBrains系IDEのプロジェクト設定ディレクトリ
+.vscode/         # Visual Studio Codeの設定ディレクトリ
