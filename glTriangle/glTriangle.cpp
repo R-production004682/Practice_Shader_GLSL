@@ -86,9 +86,6 @@ void drawSquare() {
     glColor3f(0.0f, 1.0f, 0.0f); // 頂点色 : 緑
     glVertex2f(0.5f, -0.25f);   // 頂点位置
 
-
-
-
     glEnd(); // 描画終了
 }
 
