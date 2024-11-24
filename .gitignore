@@ -9,6 +9,8 @@
 # --- Build results ---
 SL_Triangle/x64/Debug/
 glTriangle/x64/Debug/
+SL_Triangle/SL_Triangle/x64/Debug/
+glTriangle/glTriangle/x64/Debug/
 *.exe            # 実行ファイル
 *.dll            # DLLファイル
 *.obj            # オブジェクトファイル
@@ -28,6 +30,8 @@ glTriangle/x64/Debug/
 # glm パッケージ内のビルドフォルダとその中のドキュメント
 doc/             # ドキュメントディレクトリ全体を無視
 *.html           # HTMLドキュメント（自動生成される場合）
+SL_Triangle/packages/
+glTriangle/packages/
 
 # --- glm パッケージ関連 ---
 # glm パッケージのビルド結果やドキュメント
