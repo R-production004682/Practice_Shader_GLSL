@@ -1,92 +1,70 @@
+# --- OS/IDE/Editor specific ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
 # --- Visual Studio specific ---
-.vs/             # Visual Studioの一時ファイル
-*.user           # ユーザー設定ファイル
-*.suo            # ソリューションオプションファイル
-*.ipch           # IntelliSenseキャッシュ
-*.sdf            # データベースファイル
-*.opensdf        # オープン状態のデータベース
+.vs/
+.vscode/
+.idea/
 
 # --- Build results ---
-SL_Triangle/x64/Debug/
-glTriangle/x64/Debug/
-SL_Triangle/SL_Triangle/x64/Debug/
-glTriangle/glTriangle/x64/Debug/
-*.exe            # 実行ファイル
-*.dll            # DLLファイル
-*.obj            # オブジェクトファイル
-*.lib            # ライブラリファイル
-*.so             # Linux共有ライブラリ
-*.dylib          # macOS動的ライブラリ
-*.a              # 静的ライブラリ
-*.la             # ライブラリアーカイブ
-*.o              # コンパイル済みオブジェクトファイル
-*.out            # 実行可能ファイル（Linux/Unix）
-*.app            # macOSアプリケーション
-*.pdb            # デバッグ情報ファイル
-*.ilk            # 増分リンクファイル
-*.idb            # 開発データベース
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.a
+*.lib
+*.o
+*.obj
+*.pdb
+*.ilk
+*.idb
 
-# --- 無視したいディレクトリ ---
-# glm パッケージ内のビルドフォルダとその中のドキュメント
-doc/             # ドキュメントディレクトリ全体を無視
-*.html           # HTMLドキュメント（自動生成される場合）
-SL_Triangle/packages/
-glTriangle/packages/
-
-# --- glm パッケージ関連 ---
-# glm パッケージのビルド結果やドキュメント
-SL_Triangle/packages/glm.1.0.1/
-/packages/glm.1.0.1/          # glmのパッケージ全体を無視
-/packages/glm.1.0.1/build/    # glmのビルド結果
-/packages/glm.1.0.1/build/native/doc/ # glmのドキュメントを無視
-/packages/glm.1.0.1/build/native/doc/api/ # APIドキュメントを無視
-
-# --- nupengl パッケージ関連 ---
-# nupengl パッケージのビルド結果や関連ファイル
-glTriangle/packages/nupengl.core.0.1.0.1/
-/packages/nupengl.core.0.1.0.1/        # nupengl.coreのパッケージ全体
-/packages/nupengl.core.0.1.0.1/build/  # nupengl.coreのビルド結果
-/packages/nupengl.core.0.1.0.1/build/native/bin/ # nupengl.coreのバイナリ
-/packages/nupengl.core.0.1.0.1/build/native/lib/ # nupengl.coreのライブラリ
-
-/packages/nupengl.core.redist.0.1.0.1/        # nupengl.core.redistのパッケージ全体
-/packages/nupengl.core.redist.0.1.0.1/build/  # nupengl.core.redistのビルド結果
-/packages/nupengl.core.redist.0.1.0.1/build/native/bin/ # nupengl.core.redistのバイナリ
-/packages/nupengl.core.redist.0.1.0.1/build/native/lib/ # nupengl.core.redistのライブラリ
-
-# --- Precompiled Headers ---
-*.gch            # プリコンパイル済みヘッダー
-*.pch            # プリコンパイル済みヘッダー（Visual Studio）
-
-# --- Temporary/Intermediate files ---
-*.tmp            # 一時ファイル
-*.log            # ログファイル
-*.tlog           # タスクログ
-*.lastbuildstate # 最後のビルド状態
-*.cache          # 一時キャッシュファイル
-*.manifest       # マニフェストファイル
-
+# --- Debug/Release Folders ---
+Debug/
+Release/
 
 # --- Shader cache (optional) ---
-*.spv            # SPIR-Vバイナリファイル（Vulkan対応の場合）
+*.spv                # SPIR-V binary files (if using Vulkan)
+*.glsl-cache/        # GLSL cache directory
 
-# --- Libraries and Dependencies ---
-packages/        # NuGetパッケージ
-node_modules/    # Node.jsパッケージ（もし使用する場合）
+# --- Temporary/Intermediate files ---
+*.tmp
+*.log
+*.tlog
+*.cache
+*.manifest
 
+# --- Package dependencies ---
+node_modules/
+packages/
+.vcpkg/
 
-# --- OS generated files ---
-.DS_Store        # macOSのメタデータファイル
-Thumbs.db        # Windowsのサムネイルキャッシュ
-desktop.ini      # Windowsのシステム設定ファイル
+# --- Documentation ---
+doc/
+*.html
 
-# --- GLSL specific ---
-*.vert           # 頂点シェーダー
-*.frag           # フラグメントシェーダー
-*.geom           # ジオメトリシェーダー
-*.comp           # コンピュートシェーダー
-*.tess           # テセレーションシェーダー
+# --- OpenGL related ---
+*.vert               # Vertex shaders
+*.frag               # Fragment shaders
+*.geom               # Geometry shaders
+*.tess               # Tessellation shaders
+*.comp               # Compute shaders
 
-# --- IDE specific (optional, depending on your setup) ---
-.idea/           # JetBrains系IDEのプロジェクト設定ディレクトリ
-.vscode/         # Visual Studio Codeの設定ディレクトリ
+# --- Generated files ---
+*.swp                # Swap files (vim)
+*.suo                # Visual Studio Solution User Options
+*.user               # Visual Studio user files
+*.sdf                # Visual Studio database files
+
+# --- Node.js / npm packages (if applicable) ---
+package-lock.json
+yarn.lock
