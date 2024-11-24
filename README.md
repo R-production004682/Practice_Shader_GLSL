@@ -17,7 +17,7 @@
  <br>
 <!--[OpenGLを用いて作ったゲーミングな三角形をとGLSLを融合させる] -->
   <h2>[OpenGLを用いて作ったゲーミングな三角形をとGLSLを融合させる] </h2>  
-  [作品フォルダ : https://github.com/R-production004682/Practice_Shader_GLSL/tree/master/glTriangle ]<br>
+  [作品フォルダ : https://github.com/R-production004682/Practice_Shader_GLSL/tree/master/SL_Triangle ]<br>
   ⇓ 下記のような物が作ることが出来ます ⇓<br>
 <img
   src="https://github.com/user-attachments/assets/dccfae6b-1a66-4019-a4d2-ef508ee96426"
