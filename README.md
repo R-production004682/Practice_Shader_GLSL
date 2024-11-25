@@ -36,7 +36,7 @@
 <img
   src="https://github.com/user-attachments/assets/de9f1f84-f45c-4e98-b81a-e97793835d9d"
   alt="OpenGLを用いたゲーミングな3次元図形1" 
-  width="350" />
+  width="360" />
 <img
   src="https://github.com/user-attachments/assets/b97357a1-a839-4d10-90c4-1c0f92ac75d5"
   alt="OpenGLを用いたゲーミングな3次元図形2" 
