@@ -31,7 +31,7 @@
 
  <!--OpenGLを用いてゲーミングな3次元図形を描画する-->
 <h2>[OpenGLを用いてゲーミングな3次元図形を描画する] </h2>  
-[作品フォルダ : https://github.com/R-production004682/Practice_Shader_GLSL/tree/master/glTriangle ]<br>
+[作品フォルダ : https://github.com/R-production004682/Practice_Shader_GLSL/tree/master/glColorSpace ]<br>
 ⇓ 下記のような物が作ることが出来ます ⇓<br>
 <img
   src="https://github.com/user-attachments/assets/de9f1f84-f45c-4e98-b81a-e97793835d9d"
@@ -40,7 +40,7 @@
 <img
   src="https://github.com/user-attachments/assets/b97357a1-a839-4d10-90c4-1c0f92ac75d5"
   alt="OpenGLを用いたゲーミングな3次元図形2" 
-  width="350" />  
+  width="370" />  
   <br>
 
  <br>
