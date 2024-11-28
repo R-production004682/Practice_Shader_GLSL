@@ -44,6 +44,27 @@
   <br>
 
  <br>
- 【 NotionLink : 後で変える 】<br>
+ 【 NotionLink : https://www.notion.so/rproduction/OpenGL-3-14a36919741b8016a052c8e41a731ebc 】<br>
 <!--End of OpenGLを用いてゲーミングな3次元図形を描画する-->
+
+<!--ゲーミングな3次元図形をGLSLと融合させる-->
+<h2>[ゲーミングな3次元図形をGLSLと融合させて色々な描画パターンを作る] </h2>  
+[作品フォルダ : https://github.com/R-production004682/Practice_Shader_GLSL/tree/master/glColorSpace ]<br>
+⇓ 下記のような物が作ることが出来ます ⇓<br>
+<p>RGB色空間とCMY色空間を反転</p>
+<img
+  src="https://github.com/user-attachments/assets/de9f1f84-f45c-4e98-b81a-e97793835d9d"
+  alt="GLSLと融合させて、RGB色空間とCMY色空間を反転させたゲーミングな3次元図形1" 
+  width="360" /><br>
+
+  <p>RGB色空間とCMY色空間の中間色を含め交互に繰り返すアニメーションを用いる</p>
+<img
+  src="https://github.com/user-attachments/assets/b97357a1-a839-4d10-90c4-1c0f92ac75d5"
+  alt="RGB色空間とCMY色空間の中間色を含め交互に繰り返すアニメーションを用いたゲーミングな3次元図形2" 
+  width="370" />  
+  <br>
+
+ <br>
+ 【 NotionLink : 後で変える 】<br>
+<!--End of ゲーミングな3次元図形をGLSLと融合させる-->
 
