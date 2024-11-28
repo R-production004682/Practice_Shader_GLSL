@@ -61,8 +61,13 @@
   alt="GLSLと融合させて、RGB色空間とCMY色空間を反転させたゲーミングな3次元図形2" 
   width="370" />  
   <br>
+  <br>
+  <hr>
+  
+RGB色空間とCMY色空間の中間色を含め交互に繰り返すアニメーションを用いる  
 
-<p>RGB色空間とCMY色空間の中間色を含め交互に繰り返すアニメーションを用いる</p>
+https://github.com/user-attachments/assets/711ef9d7-1f38-455b-85ec-8d46bad9a53d
+
 
 
 
