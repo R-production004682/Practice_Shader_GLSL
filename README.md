@@ -72,6 +72,6 @@ https://github.com/user-attachments/assets/711ef9d7-1f38-455b-85ec-8d46bad9a53d
 
 
  <br>
- 【 NotionLink : 後で変える 】<br>
+ 【 NotionLink : https://rproduction.notion.site/3-GLSL-14c36919741b800e937ecc078d1708f1?pvs=4 】<br>
 <!--End of ゲーミングな3次元図形をGLSLと融合させる-->
 
