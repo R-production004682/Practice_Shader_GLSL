@@ -1,5 +1,0 @@
-﻿  glTriangle.cpp
-C:\Practice_GLSL\glTriangle\glTriangle.cpp(29,28): warning C4305: '引数': 'double' から 'GLclampf' へ切り詰めます。
-C:\Practice_GLSL\glTriangle\glTriangle.cpp(29,23): warning C4305: '引数': 'double' から 'GLclampf' へ切り詰めます。
-C:\Practice_GLSL\glTriangle\glTriangle.cpp(29,18): warning C4305: '引数': 'double' から 'GLclampf' へ切り詰めます。
-  glTriangle.vcxproj -> C:\Practice_GLSL\glTriangle\x64\Debug\glTriangle.exe
