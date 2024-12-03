@@ -74,3 +74,18 @@ https://github.com/user-attachments/assets/711ef9d7-1f38-455b-85ec-8d46bad9a53d
  【 NotionLink : https://rproduction.notion.site/3-GLSL-14c36919741b800e937ecc078d1708f1?pvs=4 】<br>
 <!--End of ゲーミングな3次元図形をGLSLと融合させる-->
 
+
+ <!--OpenGLの固定シェーダモデルのライティングや座標変換-->
+<h2>[OpenGLの固定シェーダモデルのライティングや座標変換] </h2>  
+[作品フォルダ :  https://github.com/R-production004682/Practice_Shader_GLSL/tree/master/GL_Gourand ]<br>
+⇓ 下記のような物が作ることが出来ます ⇓<br>
+
+
+https://github.com/user-attachments/assets/a8ce1fd8-2a20-4a3b-a1f1-c0f4b3ae81b3
+
+
+
+ <br>
+ 【 NotionLink : https://rproduction.notion.site/OpenGL-15036919741b801ca89bcf39dae7b957?pvs=4 】<br>
+<!--OpenGLの固定シェーダモデルのライティングや座標変換-->
+
